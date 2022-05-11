@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% block title %}Help with A Trip{% endblock title %}
+{% block body %} <html>
+<head>
+	<style type="text/css">
+		.sidenav {
+			height:100%;
+			width:260px;
+			position: fixed;
+			z-index:1;
+			top:1;
+			left:0;
+			background-color:#1b1b1b;
+			overflow-x: :hidden;
+			padding-top:20px;
+		}
+
+		.sidenav a {
+			padding:6px 8px 6px 16px;
+			text-decoration: none;
+			font-size:25px;
+			color: #818181;
+			display:block;
+		}
+
+		.sidenav a:hover{
+			color:#f1f1f1;
+		}
+
+		.main{
+			margin-left:160px;
+			padding: 0px 10px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="sidenav">
+        <a href="/a">Help With Rent A Car</a>
+		<a href="/b">A Guide to RentMe</a>
+		<a href="/c">RentMe Money</a>
+	</div>
+
+	{% block content %}
+	{% endblock %}
+
+</body>
+<<div class="mx-auto" style="width: 850px;">
+         <h2>Review my cancellation fee</h2>
+       You may be charged a cancellation fee if you cancel to rent a car after you’have rented athe car.
+      Members are also able to cancel a rent request if they’ve waited a certain amount of time at the pickup location.
+     <h2>What if I want to take the hire car to another country?</h2>
+   If you want to pick up your car in one country and drop it in another, your search results will show you cars you can do that with.<br>
+
+If you’re planning to cross any borders during your trip, bear in mind:<br>
+
+You may have to pay more<br>
+There are often extra fees, taxes or additional cover you’ll pay at the car hire counter.<br>
+
+It may not be possible<p></p>
+    <h2>My Car did not arrive</h2>
+    RentMe provide a convenient rentof cars for multiple riders, the app provides you with walking instructions to the pick-up for your ride.
+    If your ride didn't arrive at your pickup, please share more details regarding the issue.
+     SIGN IN TO GET HELP
+    <h2>Guidance for COVID-19 exposure</h2>
+    If you believe you’ve been exposed, please contact your local health department and follow their most up-to-date guidance.
+    RentMe is providing health and safety supplies to support drivers and delivery people to help slow the spread.
+    Knowingly using our platform if you’ve tested positive for COVID-19.
+    <h2>My Member didn't have the change</h2>
+   After your get the Car, you will be asked to pay in cash.
+    In case there is no change, your driver might ask you if you would like to receive your change in RentMe credit instead of cash.
+    This amount will be added to your account and automatically applied on your next trip taken in your country.
+<div>
+
+    variable
+{% endblock body %}

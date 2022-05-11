@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block title %}info{% endblock title %}
+{% block body %}
+      <<div class="mx-auto" style="width: 500px;">
+     <form  method = "POST" action = "/addcar">
+           {% csrf_token %}
+      <!-- Name input -->
+         <h1>Enter Car Details</h1>
+      <div class="form-outline mb-4">
+        <input type="text" id="registerName" name = "car model" class="form-control" />
+        <label class="form-label" for="registerName"> Car Model</label>
+      </div>
+
+      <div class="form-outline mb-4">
+        <input type="text" id="registerUsername" name = "car id" class="form-control" />
+        <label class="form-label" for="registerUsername">Vehicle ID</label>
+      </div>
+
+      <div class="form-outline mb-4">
+        <input type="text" id="registerEmail" name = "car loc" class="form-control" />
+        <label class="form-label" for="registerEmail">Car Location</label>
+      </div>
+
+      <div class="form-outline mb-4">
+        <input type="number" id="registerPassword" name = "capacity" class="form-control" />
+        <label class="form-label" for="registerPassword">Seating Capacity</label>
+      </div>
+      <div class="form-outline mb-4">
+        <input type="text" id="registerRepeatPassword" name = "rate" class="form-control" />
+        <label class="form-label" for="registerRepeatPassword">Rental Rate per Day</label>
+      </div>
+         <div class="form-outline mb-4">
+        <input type="text" id="registerRepeatPassword1" name = "color" class="form-control" />
+        <label class="form-label" for="registerRepeatPassword1">Car Color</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Add Car</button>
+</div>
+      <!-- Checkbox -->
+
+      <!-- Submit button -->
+
+    </form>
+  </div>
+    </div>
+    </div>
+{% endblock body %}

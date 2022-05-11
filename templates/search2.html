@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% block title %}Search{% endblock title %}
+{% block body %} <html>
+<head>
+	<style type="text/css">
+		.sidenav {
+			height:100%;
+			width:260px;
+			position: fixed;
+			z-index:1;
+			top:1;
+			left:0;
+			background-color:#1b1b1b;
+			overflow-x: :hidden;
+			padding-top:20px;
+		}
+
+		.sidenav a {
+			padding:6px 8px 6px 16px;
+			text-decoration: none;
+			font-size:25px;
+			color: #818181;
+			display:block;
+		}
+
+		.sidenav a:hover{
+			color:#f1f1f1;
+		}
+
+		.main{
+			margin-left:160px;
+			padding: 0px 10px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="sidenav">
+        <a href="/book">Book A Car</a>
+		<a href="/history">My Bookings History</a>
+		<a href="/login">Log Out</a>
+	</div>
+
+	{% block content %}
+	{% endblock %}
+ <<div class="mx-auto" style="width: 500px;">
+     <form  method = "post" action = "/changeloc">
+    {% csrf_token %}
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="search" id="model" name = "car veh id" class="form-control" />
+        <label class="form-label" for="registerEmail">Enter Vehicle ID</label>
+      </div>
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-primary btn-block mb-3">Search </button>
+    </form>
+  </div>
+</body>
+</html>
+
+{% endblock body %}
+
+
+
+
+

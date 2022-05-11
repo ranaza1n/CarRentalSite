@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="910f4be0-75ff-458b-bc36-26bbc648140f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CarRentalSite" />
+  </component>
+  <component name="ProjectId" id="28C5yzcILshpv5mlHuqqs89lbm6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="CarRentalSite" type="Python.DjangoServer" factoryName="Django server">
+      <module name="CarRentalSite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="910f4be0-75ff-458b-bc36-26bbc648140f" name="Default Changelist" comment="" />
+      <created>1650707986679</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650707986679</updated>
+      <workItem from="1650707991109" duration="2624000" />
+      <workItem from="1650711507957" duration="8337000" />
+      <workItem from="1650727358550" duration="7628000" />
+      <workItem from="1650737994077" duration="1946000" />
+      <workItem from="1650748899031" duration="7771000" />
+      <workItem from="1650826339552" duration="12536000" />
+      <workItem from="1650909178907" duration="3613000" />
+      <workItem from="1650917167356" duration="9765000" />
+      <workItem from="1651088866113" duration="3486000" />
+      <workItem from="1651093612739" duration="1116000" />
+      <workItem from="1651120962733" duration="591000" />
+      <workItem from="1651135360609" duration="643000" />
+      <workItem from="1651136328343" duration="1945000" />
+      <workItem from="1651242293434" duration="1193000" />
+      <workItem from="1651322124697" duration="4996000" />
+      <workItem from="1651348303579" duration="1107000" />
+      <workItem from="1651350149695" duration="458000" />
+      <workItem from="1651397656856" duration="1121000" />
+      <workItem from="1651399719510" duration="4259000" />
+      <workItem from="1651408328704" duration="617000" />
+      <workItem from="1651430528674" duration="6251000" />
+      <workItem from="1651442384650" duration="2626000" />
+      <workItem from="1651482727242" duration="9181000" />
+      <workItem from="1651514972455" duration="6513000" />
+      <workItem from="1651778817398" duration="3170000" />
+      <workItem from="1651784751377" duration="4334000" />
+      <workItem from="1651789953503" duration="2028000" />
+      <workItem from="1651816806440" duration="3522000" />
+      <workItem from="1651831801160" duration="3736000" />
+      <workItem from="1651934891532" duration="1674000" />
+      <workItem from="1651941688127" duration="5238000" />
+      <workItem from="1652105701237" duration="4328000" />
+      <workItem from="1652126952110" duration="594000" />
+      <workItem from="1652127616154" duration="5861000" />
+      <workItem from="1652180410485" duration="4800000" />
+      <workItem from="1652200383708" duration="289000" />
+      <workItem from="1652200737965" duration="3434000" />
+      <workItem from="1652204239614" duration="7519000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="490" y="239" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1651136923556">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="490" y="239" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1651136923556" />
+    <state x="450" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1650711667173">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="450" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1650711667172" />
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1651817112218">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1651817112218" />
+  </component>
+</project>

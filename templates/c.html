@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% block title %}RentMe Money{% endblock title %}
+{% block body %} <html>
+<head>
+	<style type="text/css">
+		.sidenav {
+			height:100%;
+			width:250px;
+			position: fixed;
+			z-index:1;
+			top:1;
+			left:0;
+			background-color:#1b1b1b;
+			overflow-x: :hidden;
+			padding-top:20px;
+		}
+
+		.sidenav a {
+			padding:6px 8px 6px 16px;
+			text-decoration: none;
+			font-size:25px;
+			color: #818181;
+			display:block;
+		}
+
+		.sidenav a:hover{
+			color:#f1f1f1;
+		}
+
+		.main{
+			margin-left:160px;
+			padding: 0px 10px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="sidenav">
+        <a href="/a">Help With A Trip</a>
+		<a href="/b">A Guide to RentMe</a>
+		<a href="/c">RentMe Money</a>
+	</div>
+
+	{% block content %}
+	{% endblock %}
+
+</body>
+<<div class="mx-auto" style="width: 850px;">
+         <h2>How does RentMe protect my account?</h2>
+  Preventing fraud and unauthorized logins
+Our security teams build and maintain multiple detection systems dedicated to monitoring accounts
+    for suspicious activity such as unauthorized logins or financial fraud.<p></p>
+    For example, your RentMe account is linked to both your phone number and your mobile device to make sure only you can access your account.
+    If you see unexpected activity or suspect your account was compromised, please let us know.<p></p>
+    Protecting passwords<br>
+     Your RentMe Money password is protected on our servers using strong cryptography methods.
+    This makes your password unreadable or unusable by anyone who might try to steal it.<p></p>
+    Securing transaction information<br>
+For added security, we’ll ask you to provide your password before viewing your RentMe Money transactions.
+    This extra step helps protect your sensitive information from unauthorized access.
+    <h2>What can I do to protect my account?</h2>
+Turn on two-step verification<br>
+When 2-step verification is on,
+    you must enter a code along with your password every time you sign in to your RentMe Money account.<p></p>
+    For example, your RentMe account is linked to both your phone number and your mobile device to make sure only you can access your account.
+    If you see unexpected activity or suspect your account was compromised, please let us know.<p></p>
+    There are 2 ways to get verification codes: <br>
+    1. Through text messages from RentMe. <br>
+    2. Download a security app like Duo, Authy, or Google Authenticator to generate the codes.
+<div>
+{% endblock body %}

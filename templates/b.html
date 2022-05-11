@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% block title %}Guide to RentMe{% endblock title %}
+{% block body %} <html>
+<head>
+	<style type="text/css">
+		.sidenav {
+			height:100%;
+			width:250px;
+			position: fixed;
+			z-index:1;
+			top:1;
+			left:0;
+			background-color:#1b1b1b;
+			overflow-x: :hidden;
+			padding-top:20px;
+		}
+
+		.sidenav a {
+			padding:6px 8px 6px 16px;
+			text-decoration: none;
+			font-size:25px;
+			color: #818181;
+			display:block;
+		}
+
+		.sidenav a:hover{
+			color:#f1f1f1;
+		}
+
+		.main{
+			margin-left:160px;
+			padding: 0px 10px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="sidenav">
+        <a href="/a">Help With A Trip</a>
+		<a href="/b">A Guide to RentMe</a>
+		<a href="/c">RentMe Money</a>
+	</div>
+
+	{% block content %}
+	{% endblock %}
+
+</body>
+<<div class="mx-auto" style="width: 850px;">
+         <h2>How to request for rent a Car</h2>
+    <ul class="list-unstyled">
+        <ul>
+   <li>Open your app and enter your destination in the “Where to?” field.</li>
+        <li>Wipe up to see all vehicle options available in your area. Tap one to select it for your ride, then tap “Choose RentMe X” (button will be your vehicle selection).</li>
+        <li>You may be asked to confirm your pickup location. If so, move the pin on the map, or select from a list of locations. Tap “Confirm Pickup” to send your request to eligible drivers in the area.</li>
+        <li>If you’re not asked to confirm your pickup, tap “Confirm RentMeX” (button will be your vehicle selection) to send your request to eligible drivers in the area.</li>
+        <li>You’ll see an estimated time to be matched with an eligible driver. If no drivers are available for the type of ride you’ve chosen, the app will suggest an alternate ride type with available drivers nearby.</li>
+        <li>Once a driver accepts your request, you’ll see their location and estimated time of arrival on the map.</li>
+    </ul>
+</ul>
+      <h2>Late time fees</h2>
+       In some locations, a per-minute wait time fee will begin 2 minutes after your driver arrives at your location.
+    We'll notify you that the charge has started, and it will continue until your driver begins the trip.
+    <p></p>If your trip is canceled and you're charged a cancellation fee, you will not be charged for wait time.
+    Additionally, this fee may not apply at airports or certain other venues.
+    And it does not apply to certain trip types, such as RentMe Pool.
+<p></p>Wait-time fees and thresholds vary by location and product type.
+    In certain markets, additional wait-time charges may apply to your trip depending on how busy it is.
+    Use the fare estimator below to see if additional charges exist in your city.
+      <h2>Rating of RentMe</h2>
+   Ratings allow us to ensure a great experience for both riders and drivers.
+    We take ratings very seriously; drivers with low ratings may lose access to the RentMe app.
+</div>
+<div>
+{% endblock body %}

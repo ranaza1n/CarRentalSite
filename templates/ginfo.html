@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% block title %}info{% endblock title %}
+{% block body %}
+      <<div class="mx-auto" style="width: 500px;">
+     <form  method = "POST" action = "/info">
+           {% csrf_token %}
+      <!-- Name input -->
+         <h1>Enter General Information</h1>
+      <div class="form-outline mb-4">
+        <input type="text" id="registerName" name = "member name" class="form-control" />
+        <label class="form-label" for="registerName"> Name</label>
+      </div>
+
+      <!-- Username input -->
+      <div class="form-outline mb-4">
+        <input type="email" id="registerUsername" name = "member email" class="form-control" />
+        <label class="form-label" for="registerUsername">Email</label>
+      </div>
+
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="number" id="registerEmail" name = "member phone" class="form-control" />
+        <label class="form-label" for="registerEmail">Phone</label>
+      </div>
+
+      <!-- Password input -->
+      <div class="form-outline mb-4">
+        <input type="text" id="registerPassword" name = "member address" class="form-control" />
+        <label class="form-label" for="registerPassword">Address</label>
+      </div>
+      <h1>Enter Payment Information</h1>
+      <!-- Repeat Password input -->
+      <div class="form-outline mb-4">
+        <input type="text" id="registerRepeatPassword" name = "billing" class="form-control" />
+        <label class="form-label" for="registerRepeatPassword">Billing Address</label>
+      </div>
+         <div class="form-outline mb-4">
+        <input type="number" id="registerRepeatPassword1" name = "card" class="form-control" />
+        <label class="form-label" for="registerRepeatPassword1">Card No</label>
+      </div>
+     <div class="form-check">
+  <input class="form-check-input" type="radio" value="frequent" name="driving" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    Frequent Driving Plan
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" value="occasional" name="driving" id="flexRadioDefault2" checked>
+  <label class="form-check-label" for="flexRadioDefault2">
+    Occasional Driving Plan
+  </label>
+</div>
+      <!-- Checkbox -->
+
+      <!-- Submit button -->
+      <a class="btn btn-primary" href="/thank" role="button">Book Finally</a>
+
+    </form>
+  </div>
+    </div>
+    </div>
+{% endblock body %}
