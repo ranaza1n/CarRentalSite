@@ -23,3 +23,17 @@ class Rental_History(models.Model):
     pickup = models.CharField(max_length=35)
     returntime = models.CharField(max_length=35)
 
+class Revenue_Report(models.Model):
+    model = models.CharField(max_length=35)
+    lateFeeRevenue = models.CharField(max_length=35)
+    vehicle_id = models.CharField(max_length=35)
+    ReservationRevenue = models.CharField(max_length=35)
+class Location_Pref_Report(models.Model):
+    NofReservations = models.CharField(max_length=35)
+    TotalHours= models.CharField(max_length=35)
+    Location = models.CharField(max_length=55)
+    Month = models.CharField(max_length=35)
+class Frequent_User_Report(models.Model):
+    MemberID = models.CharField(max_length=35)
+    DrivingPlan= models.CharField(max_length=35)
+    NofReservations = models.CharField(max_length=35)

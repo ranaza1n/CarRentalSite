@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="910f4be0-75ff-458b-bc36-26bbc648140f" name="Default Changelist" comment="" />
+    <list default="true" id="910f4be0-75ff-458b-bc36-26bbc648140f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRental/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/CarRental/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRental/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/CarRental/models.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +17,9 @@
   <component name="FavoritesManager">
     <favorites_list name="CarRentalSite" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="28C5yzcILshpv5mlHuqqs89lbm6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,6 +27,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
@@ -98,6 +106,7 @@
       <workItem from="1652200383708" duration="289000" />
       <workItem from="1652200737965" duration="3434000" />
       <workItem from="1652204239614" duration="7519000" />
+      <workItem from="1652357908514" duration="487000" />
     </task>
     <servers />
   </component>
